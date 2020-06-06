@@ -1,5 +1,6 @@
 .idea/
 __tests__/
 example/
+.travis.yml
 jest.config.js
 yarn.lock
