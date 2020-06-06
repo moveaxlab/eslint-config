@@ -1,5 +1,5 @@
 {
-  "name": "@moveax/eslint-config",
+  "name": "@moveaxlab/eslint-config",
   "version": "0.4.0",
   "description": "ESLint Configuration for Typescript Projects",
   "repository": "https://github.com/moveaxlab/eslint-config",
