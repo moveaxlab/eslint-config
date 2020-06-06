@@ -1,0 +1,37 @@
+{
+  "name": "@moveax/eslint-config",
+  "version": "0.4.0",
+  "description": "ESLint Configuration for Typescript Projects",
+  "repository": "https://github.com/moveaxlab/eslint-config",
+  "contributors": [
+    "Michelle Laurenti <michelle.laurenti@moveax.it>"
+  ],
+  "main": "./.eslintrc.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.19.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.0.10",
+    "eslint": "^6.0.0",
+    "husky": "^3.0.9",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.7.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.0.0",
+    "typescript": "^3.7.0"
+  },
+  "husky": {
+    "pre-commit": "yarn test"
+  }
+}
