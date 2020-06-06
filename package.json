@@ -32,6 +32,8 @@
     "typescript": "^3.7.0"
   },
   "husky": {
-    "pre-commit": "yarn test"
+    "hooks": {
+      "pre-commit": "yarn test"
+    }
   }
 }
