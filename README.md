@@ -1,6 +1,8 @@
 
 # Moveax ESLint configuration
 
+![Travis (.com)](https://img.shields.io/travis/com/moveaxlab/eslint-config)
+
 This repo contains the default ESLint configuration for Moveax TypeScript projects.
 
 ## Installation
