@@ -22,6 +22,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/explicit-member-accessibility': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-inferrable-types': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
@@ -29,11 +30,17 @@ module.exports = {
     '@typescript-eslint/no-empty-interface': 'off',
     '@typescript-eslint/consistent-type-definitions': 'error',
     '@typescript-eslint/no-explicit-any': 'error',
-    '@typescript-eslint/no-unused-vars': ['warn', { ignoreRestSiblings: true, argsIgnorePattern: '^_' }],
+    '@typescript-eslint/no-unused-vars': [
+      'warn',
+      {
+        ignoreRestSiblings: true,
+        argsIgnorePattern: '^_',
+      },
+    ],
     'max-classes-per-file': ['error', 1],
     'sort-imports': 'off',
     'lines-between-class-members': ['error', 'always'],
-    'complexity': ['error', 10],
+    complexity: ['error', 10],
     'no-console': 'warn',
   },
 };
